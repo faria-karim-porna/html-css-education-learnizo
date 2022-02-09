@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Tinos&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Tinos&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/loginAndSignup.css" />
+    <link rel="stylesheet" href="css/common.css" />
+    <title>Learnizo</title>
+  </head>
+
+  <body class="signUp-logIn-page">
+    <!-- main body start -->
+    <div
+      class="main-form-body d-flex d-flex justify-content-center align-items-center align-items-center"
+    >
+      <div class="w-30 signUp-logIn-container p-4">
+        <p class="signUp-logIn-shop-name text-center">Learnizo</p>
+        <div class="d-flex w-100">
+          <div
+            class="w-50 d-flex justify-content-center clicked signUpLoginToggle cur-point"
+            onclick="loginSwitch()"
+          >
+            Log In
+          </div>
+          <div
+            class="w-50 d-flex justify-content-center signUpLoginToggle cur-point"
+            onclick="signupSwitch()"
+          >
+            Sign Up
+          </div>
+        </div>
+        <!--login form start -->
+        <div id="login-area">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="w-100">
+              <form action="" class="d-flex justify-content-center">
+                <div class="w-100">
+                  <div>
+                    <input type="email" placeholder="Email" class="w-100" />
+                  </div>
+                  <div>
+                    <input
+                      type="password"
+                      placeholder="Password"
+                      class="w-100"
+                    />
+                  </div>
+                  <div class="mb-4 mt-5">
+                    <input type="submit" value="Log In" class="w-100" />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!--login form end -->
+
+        <!--signup form start -->
+        <div id="sign-up-area">
+          <div class="d-flex justify-content-center align-items-center">
+            <div class="w-100">
+              <form action="" class="d-flex justify-content-center">
+                <div class="w-100">
+                  <div>
+                    <input type="text" placeholder="Name" class="w-100" />
+                  </div>
+                  <div>
+                    <input type="email" placeholder="Email" class="w-100" />
+                  </div>
+                  <div>
+                    <input
+                      type="password"
+                      placeholder="Password"
+                      class="w-100"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="tel"
+                      placeholder="Phone Number"
+                      class="w-100"
+                    />
+                  </div>
+                  <div>
+                    <label class="checkbox-container"
+                      ><p class="signUp-logIn-text">
+                        Agree To Our
+                        <span class="signUp-logIn-link-text"
+                          >Terms And Services</span
+                        >
+                      </p>
+                      <input type="checkbox" />
+                      <span class="checkmark"></span>
+                    </label>
+                  </div>
+                  <div>
+                    <label class="checkbox-container"
+                      ><p class="signUp-logIn-text">
+                        Receive Upcoming Offers & Events Malls
+                        <input type="checkbox" />
+                        <span class="checkmark"></span>
+                      </p>
+                    </label>
+                  </div>
+                  <div class="mb-4 mt-5">
+                    <input type="submit" value="Submit" class="w-100" />
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <!--signup form end -->
+        <p class="signUp-logIn-text text-center">
+          Don't Have An Account?
+          <span class="signUp-logIn-link-text">Create One</span>
+        </p>
+      </div>
+    </div>
+    <!-- main body end -->
+    <!-- Bootstrap JS -->
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/loginAndSignup.js"></script>
+  </body>
+</html>

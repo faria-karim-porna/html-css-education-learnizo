@@ -1,0 +1,65 @@
+.landing-page {
+  background: #005792;
+}
+
+.book {
+  height: 100vh;
+}
+
+.book-top-left-pages {
+  border-bottom: 15px solid #f2f2f2;
+  border-left: 15px solid transparent;
+  width: 43%;
+}
+
+.book-top-pages-line {
+  width: 1%;
+  background-color: #d3d3d3;
+}
+
+.book-top-right-pages {
+  border-bottom: 15px solid #f2f2f2;
+  border-right: 15px solid transparent;
+  width: 43%;
+}
+
+.book-bottom-pages {
+  border-bottom: 15px solid #d3d3d3;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  width: 90%;
+}
+
+.book-top-cover {
+  border-bottom: 15px solid #31a7db;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  width: 95%;
+}
+
+.circle-top-book-cover {
+  height: 30px;
+  width: 60px;
+  border-bottom-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  background-color: #31a7db;
+  position: absolute;
+}
+
+.book-bottom-cover {
+  border-bottom: 25px solid #037391;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  width: 100%;
+}
+
+.circle-bottom-book-cover {
+  height: 35px;
+  width: 70px;
+  border-bottom-left-radius: 70px;
+  border-bottom-right-radius: 70px;
+  background-color: #037391;
+  position: absolute;
+  z-index: -1;
+  top: -18px;
+}

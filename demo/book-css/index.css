@@ -1,0 +1,84 @@
+.landing-page {
+  background: #005792;
+}
+
+.book {
+  height: 100vh;
+}
+
+.book-top-pages-line {
+  width: 0;
+  height: 0;
+  border-left: 2px solid transparent;
+  border-right: 2px solid transparent;
+  border-bottom: 35px solid #d3d3d3;
+  z-index: 2;
+  position: absolute;
+  top: -18px;
+}
+
+.book-top-left-pages-circle,
+.book-top-right-pages-circle {
+  background-color: #f2f2f2;
+  width: 290.4px;
+  height: 25px;
+  border-radius: 50% / 100%;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  position: absolute;
+  top: -20px;
+}
+
+.book-top-left-pages,
+.book-top-right-pages {
+  border-bottom: 15px solid #f2f2f2;
+  width: 159px;
+}
+.book-top-left-pages {
+  border-left: 15px solid transparent;
+}
+
+.book-top-right-pages {
+  border-right: 15px solid transparent;
+}
+
+.book-bottom-pages {
+  border-bottom: 15px solid #d3d3d3;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  width: 348px;
+}
+
+.book-top-cover {
+  border-bottom: 8px solid #31a7db;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  width: 376px;
+}
+
+.circle-top-book-cover {
+  height: 15px;
+  width: 30px;
+  border-bottom-left-radius: 30px;
+  border-bottom-right-radius: 30px;
+  background-color: #31a7db;
+  position: absolute;
+}
+
+.book-bottom-cover {
+  border-bottom: 12px solid #037391;
+  border-left: 12px solid transparent;
+  border-right: 12px solid transparent;
+  width: 400px;
+}
+
+.circle-bottom-book-cover {
+  height: 21px;
+  width: 42px;
+  border-bottom-left-radius: 42px;
+  border-bottom-right-radius: 42px;
+  background-color: #037391;
+  position: absolute;
+  z-index: -1;
+  top: -10px;
+}

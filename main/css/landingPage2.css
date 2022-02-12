@@ -41,7 +41,7 @@
   top: 0px;
   right: 50%;
   transform-origin: 100% 100%;
-  border: solid #555 2px;
+  border: solid #d3d3d3 2px;
   background-size: 420px 300px;
   background-position: center;
   transform-style: preserve-3d;
@@ -117,7 +117,7 @@
   bottom: 0;
   left: 50%;
   transform: translate(-50%, 50%);
-  background-color: #555;
+  background-color: #d3d3d3;
   width: 10px;
   height: 5px;
   border-radius: 50%;
@@ -135,7 +135,7 @@
   top: 0px;
   transform-origin: 100% 100%;
   right: 100%;
-  border: solid #555;
+  border: solid #d3d3d3;
   border-width: 2px 0px;
   perspective: 4200px;
   perspective-origin: center;
